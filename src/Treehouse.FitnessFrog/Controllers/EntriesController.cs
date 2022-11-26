@@ -80,7 +80,7 @@ namespace Treehouse.FitnessFrog.Controllers
 
             SetupActivitesSelectListItems();
 
-            return View();
+            return View(entry);
         }
 
         [HttpPost]
